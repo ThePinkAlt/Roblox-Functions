@@ -1,0 +1,16 @@
+-- round(number here)
+local function round(number)
+	
+	local ee = number - math.floor(number)
+	
+	if ee >= .5 then
+		
+		return math.ceil(number)
+		
+	else
+		
+		return math.floor(number)
+		
+	end
+	
+end
